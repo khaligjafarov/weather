@@ -1,0 +1,54 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox {
+  overflow: hidden;
+}
+.imgbox img {
+  width: 100%;
+}
+
+#weather {
+  padding: 100px 0;
+}
+#weather .box {
+  background-color: #a4caff;
+  border-radius: 20px;
+  width: 250px;
+}
+#weather .box .data h1, #weather .box .data h2 {
+  color: white;
+  font-size: 25px;
+  margin: 28px;
+}
+#weather .box input {
+  border-radius: 20px;
+  height: 40px;
+  font-size: 13px;
+  padding: 5px 15px;
+}
+#weather .box #btn {
+  background-color: #79afff;
+  padding: 9px;
+  border-radius: 20px;
+  color: white;
+  width: 110px;
+  margin: 28px auto 34px;
+  font-size: 20px;
+}
+#weather .box #btn:hover {
+  cursor: pointer;
+  background-color: #F5CBA7;
+}
+#weather .box ul {
+  display: flex;
+  justify-content: center;
+}
+#weather .box ul li {
+  margin: 28px;
+  color: white;
+  font-size: 25px;
+  margin-left: 15px;
+}
