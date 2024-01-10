@@ -1,7 +1,7 @@
 #weather
     padding: 100px 0
     .box
-        background-color: #438df4
+        background: linear-gradient(0deg, rgba(34,193 ,195 ,1 ) 0%, rgba(253,187 ,45 ,1 ) 100%);
         border-radius: 20px
         width: 250px
         .data 
@@ -24,7 +24,7 @@
             font-size: 20px
             &:hover
                 cursor: pointer
-                background-color: #0959f9
+                background-color: #6f7cb1
         ul
             display: flex
             justify-content: center
@@ -33,4 +33,11 @@
                 color: #ffff
                 font-size: 25px
                 margin-left: 15px
+    @media screen and ( max-width: 1200px )
+        .box
+            width: 250px
+    @media screen and ( max-width: 992px )
+        .box
+            width: 250px
                 
+                    

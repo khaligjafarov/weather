@@ -14,7 +14,7 @@ body {
   padding: 100px 0;
 }
 #weather .box {
-  background-color: #438df4;
+  background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgb(253, 187, 45) 100%);
   border-radius: 20px;
   width: 250px;
 }
@@ -40,7 +40,7 @@ body {
 }
 #weather .box #btn:hover {
   cursor: pointer;
-  background-color: #0055ff;
+  background-color: #6f7cb1;
 }
 #weather .box ul {
   display: flex;
